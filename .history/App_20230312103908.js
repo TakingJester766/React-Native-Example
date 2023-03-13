@@ -13,7 +13,6 @@ export default function App() {
           {/*This is where the tasks will go!*/}
 
           <Task text={'Task 1'}/>
-          <Task text={'Task 2'}/>
           
 
         </View>

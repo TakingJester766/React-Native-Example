@@ -7,8 +7,13 @@ const Task = (props) => {
             <View style={styles.itemLeft}>
                 <TouchableOpacity style={styles.square}></TouchableOpacity>
                 <Text style={styles.itemText}>{props.text}</Text>
+
+
             </View>
+
+            <Text>{props.text}</Text>
             <View style={styles.circular}></View>
+
         </View>
     )
 }
@@ -39,13 +44,7 @@ const styles = StyleSheet.create({
     itemText: {
         maxWidth: '80%',
     },
-    circular: {
-        width: 12,
-        height: 12,
-        borderColor: '#55BCF6',
-        borderWidth: 2,
-        borderRadius: 5,
-    }
+    circular: {}
 });
 
 export default Task;
